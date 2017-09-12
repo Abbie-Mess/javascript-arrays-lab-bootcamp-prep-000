@@ -1,4 +1,5 @@
 const app = "I don't do much."
+var Kittens = [1,2,3]
 
 function destructivelyAppendKitten(kitten){
   return kittens.push(kitten)
@@ -24,11 +25,11 @@ function prependKitten(kitten){
   return [kitten, ...kittens]
 }
 
-function removeLastKitten(kitten){
+//function removeLastKitten(kitten){
   var newKittens = kittens.slice(kittens.length - 1)
   return newKittens
 }
 
-//var newKittens = 10
+var Kittens = [1,2,3]
 var newKittens = kittens.slice(kittens.length - 1)
 console.log(newKittens)
