@@ -30,5 +30,5 @@ function prependKitten(kitten){
   return newKittens
 }
 
-var newKittens = kittens.slice(kittens.length - 1)
+var newKittens = kittens.slice(0,kittens.length - 1)
 console.log(newKittens)
