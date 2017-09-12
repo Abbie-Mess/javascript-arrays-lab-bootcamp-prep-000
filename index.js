@@ -30,5 +30,7 @@ function removeLastKitten(kitten){
   return newKittens
 }
 
-var newKittens = kittens.slice(0,kittens.length - 1)
-console.log(newKittens)
+function removeFirstKitten(kitten){
+  var newKittens = kittens.slice(1)
+  return newKittens
+}
