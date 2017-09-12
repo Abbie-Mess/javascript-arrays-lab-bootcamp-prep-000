@@ -1,5 +1,5 @@
 const app = "I don't do much."
-var Kittens = [1,2,3]
+var kittens = [1,2,3]
 
 function destructivelyAppendKitten(kitten){
   return kittens.push(kitten)
