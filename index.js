@@ -23,3 +23,7 @@ function appendKitten(kitten){
 function prependKitten(kitten){
   return [kitten, ...kittens]
 }
+
+function removeLastKitten(kitten){
+  return kittens.slice(kittens.lenght - 1)
+}
